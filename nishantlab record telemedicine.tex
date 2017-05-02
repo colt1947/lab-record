@@ -1,0 +1,231 @@
+\documentclass[a4paper,0pt]{article}
+\usepackage{graphicx}
+\usepackage{float}
+\begin{document}
+\begin{titlepage}
+\begin{figure}[h!]
+  \centering
+\includegraphics[width=4.2in]{nitr.jpg}
+\end{figure}
+\begin{center}
+\line(1,0){300}\\
+\huge{\bfseries LAB RECORD OF TELEMEDICINE}\\[2mm]
+\line(1,0){300}\\[1cm]
+\end{center}
+%\begin{flushright}
+\begin{center}
+\textnormal{  \ \ \ \ \ \ \ \ BY -}\\ \LARGE NISHANT GAURAV\\
+\  ROLL NO-12111026 \\
+\ SIXTH SEMESTER \\
+\  BIOMEDICAL ENGINEERING \\
+\ NIT RAIPUR\\
+\end{center}
+%\end{flushright}
+\end{titlepage}
+\begin{center}
+\textbf{\LARGE INDEX}\\[2CM]
+\end{center}
+\begin {flushleft} 
+\textbf{\large  PRACTICAL NO.\ \ \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \  Page no}\\[1cm]
+\normalsize 1 PRACTICAL 1:  To study about Installation of MYSQL Workbench \_ \_ \_ \_2-5\\[0.75cm]
+\normalsize 2 PRACTICAL 2: To study about MYSQL Databases and its properties \_  6-7 \\[0.75cm]
+\normalsize 3 PRACTICAL3: To study aboiut MYSQL Tables and its properties\_ \_ \_ \_ 8-9\\[0.75cm]
+\normalsize 4 PRACTICAL4: Uploading the code on Github\_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_10\\[0.75cm]
+\normalsize 5 PRACTICAL 5: To study about SQL Jions\_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_\_ 11-13\\[0.75cm]
+%\normalsize  6 PRACTICAL 6: TO study about DDL,DML,DCL ,TTL commands\\[0.75cm]%
+\end{flushleft}
+\newpage
+
+
+\begin {center}
+\textsc{\LARGE PRACTICAL NO-1 }\\
+\end{center}
+\textbf{ AIM:-}Installation of MYSQL Workbench\\[0.75cm]
+\textbf{ SOFTWARE USED :-}MYSQL 5.7 workbench\\[0.75cm]
+\textbf{THEORY:-} MySQL Workbench is a visual database design tool that \\integrates SQL development, administration, database design, creation and maintenance into a single  integrated development environment for the MySQL database system. It is the successor to DBDesigner 4 from fabFORCE.net and replaces the previous package of software, MySQL GUI Tools Bundle.\\[0.75cm]
+\textbf{PROCEDURE:-}\\[0.5cm]
+\ STEPS FOR INSTALLING THE MYSQL WORKBENCH:-\\[0.3cm]
+\ 1. make sure you have “Microsoft Visual tools for office runtime” installed.\\[1mm]
+ \textbf{ https://www.microsoft.com/en-in/download/confirmation.aspx?id=48217}\\[5mm]
+ \ 2.  go to the link  \textbf{ http://dev.mysql.com/doc/refman/5.7/en/windows-installation.htm} and follow the instruction \\[1mm]
+ \ a) Install web community version (1.7 M) from the below link\\[1mm]
+ \textbf{ http://dev.mysql.com/downloads/installer}\\[2mm]
+ \ b) Choose \textbf{“Developer Default”} version\\[2mm]
+ \ c) Just follow the instructions as they get popped up while installation\\[2mm]
+\ d) Give password carefully and you should remember it\\[2mm]
+ \ e) Install through admin account of windows\\[0.75cm]
+\begin{figure}
+\includegraphics[width=4.5in]{Capture.png}
+\centering
+\caption{figure1: step2 a installation of web community installor}
+\end{figure}
+\begin{figure}
+\includegraphics[width=4.5in]{Capture2.png}
+\centering
+\caption{figure2: devloper default version}
+\end{figure}
+\begin{figure}
+\includegraphics[width=4.5in]{Capture3.png}
+\centering
+\caption{figure3: installation of packages }
+\end{figure}
+\begin{figure}
+\includegraphics[width=4.5in]{Capture4.png}
+\centering
+\caption{figure4: setting password }
+\end{figure}
+\begin{figure}
+\includegraphics[width=4.5in]{Capture5.png}
+\centering
+\caption{figure 5: final step }
+\end{figure}
+\newpage
+\textbf{ RESULTS:-} MYSQL workbench successfully installed\\[5mm]
+\textbf{CONCLUSION:-}By performing above operation we have successfully installed MYSQL\\
+\newpage
+
+
+\begin{center}
+\textbf{\LARGE PRACTICAL NO-2}\\[1cm]
+\end{center}
+\begin{figure}[h!]
+\textbf{\large AIM:-}Study about MYSQL database and its properties \\[0.75cm]
+\textbf{SOFTWARE USED:-} MYSQL Workbench 5.7\\[0.75cm]
+\textbf{THEORY:- }A database is a separate application that stores a collection of data. Each database has one or more distinct APIs for creating, accessing, managing, searching and replicating the data it holds.
+Other kinds of data stores can be used, such as files on the file system or large hash tables in memory but data fetching and writing would not be so fast and easy with those types of systems.  \\[5mm]
+\textbf{CODES FOR CREATING A DATABASE IN MYSQL :-}\\[2MM]
+\ CODE:-\textbf{ CREATE DATABASE  NISHANT}\\[2mm]
+\ press \includegraphics[width=5mm]{table.jpg} option\\[2MM]
+\ DATABASE IS CREATED \\[5MM]
+
+\textbf{PROCEDURE:-}\\[2mm]
+\ 1. Open MYSQL Workbench\\[2mm]
+\ 2. Go to file menu and select New query tab\\[2mm]
+\ 3. type CREATE DATABASE DATABASE NAME  eg-telemedicine\\[2mm]
+\ 4. \includegraphics[width=5mm]{table.png} click on the exicute option\\[2mm]
+\ 5. database is created \\[2mm]
+\end{figure}
+\begin{figure}
+\includegraphics[width=5in]{table2.png}
+\caption{figure: DATABASE IN MYSQL}
+\end{figure}
+\newpage
+\textbf{RESULT:-} DATABASE IS CREATED\\[5MM]
+\textbf{CONCLUSION:-}By performing above operation we have successfully create a database on MYSQL\\[5MM]
+\newpage
+
+
+\begin{center}
+\textbf{\LARGE PRACTICAL NO-3}\\[1CM]
+\end{center}
+\textbf{AIM:-} To study about MYSQL Tables and its properties \\[5mm]
+\textbf{SOFTWARE USED :-} MYSQL Workbench 5.7\\[5mm]
+\textbf{THEORY:-}\\[2MM]
+\begin{center}
+\textbf{\LARGE Codes:-}\\[2mm]
+\end{center}
+\textbf{ 1. CREATE DATABASE TELEMEDICINE}\\[2mm]
+\ exicute\\[2mm]
+\textbf{2. CREATE TABLE COUNTRY(SNO int(04),Country varchar(04),Capital varchar(20) continent varchar(20));}\\[2mm]
+\ exicutes\\[5mm]
+\ NOW FOR INSERTING DATA ON TABLE:- \\[2mm]
+\textbf{ 3. insert into COUNTRY (SNO,Country,Capital,continent)}\\[1mm]
+\textbf{ 4. values(1,'india','delhi','asia'),(2,'china',bijing','asia');}\\[2mm]
+\ exicute\\[10mm]
+\begin{figure}[h!]
+\includegraphics[width=4.5in]{table2.png}
+\centering
+\caption{figure: creating table and inserting data}
+\end{figure}
+\newpage
+\textbf{PROCEDURE:-}\\[2MM]
+\ 1.Open MYSQL Wokbench\\[2mm]
+\ 2.Go to file menu and select new Query Tab\\[2mm]
+\ 3. First of all create a database for creating database type CREATE DATABASE TELEMEDICINE on query\\[2mm]
+\ 4. After creating database select the database \\[2mm]
+\  5. Now Create a table by writing  CREATE TABLE BIOMEDICAL \\[2mm]
+\ 6. table is created \\[2mm]
+\ 7. for inserting data on a table type insert into table name (coloum1,coloum2,......)\\[2mm]
+\ values( value 1,value2,......); and then press exicute option\\[2mm]
+\ 8. data inseted into table sucessfully\\[5mm] 
+\textbf{RESULTS:-} Tables and it's properties are sucessfully studied \\[5mm]
+\textbf{CONCLUSION:-}by performing above operation we have successfully create a table on MYSQL\\
+\newpage
+
+\begin{center}
+\textbf{\LARGE PRACTICAL NO-4}\\[1cm]
+\end{center}
+\textbf{AIM:-}Uploading the code on github\\[5mm]
+\textbf{SOFTWARE USED:-} Github\\[5mm]
+\textbf{THEORY:-}GitHub is a web-based Git or version control repository and Internet hosting service. It offers all of the distributed version control and source code management (SCM) functionality of Git as well as adding its own features. It provides access control and several collaboration features such as bug tracking, feature requests, task management, and wikis for every project.GitHub offers both plans for private and free repositories on the same account which are commonly used to host open-source software projects.\\[5MM]
+\textbf{PROCEDURE:-}\\[2mm]
+\ 1.Download the GitHub software on pc and install it properly \\[2mm]
+\ 2.open the  GitHub software then  create an account on GitHub \\[2mm]
+\ 3. login on GitHub \\[2mm]
+\ 4.  click on create repository \\[2mm]
+\ 5. after clicking one menu shown in the display \\[2mm]
+\ 6.  provide your repositories name and location \\[2mm]
+\ 7. select the codes location/path  by using browse option  \\[2mm] 
+\ 8. after providing path and name click on create repositories we can upload our data on GitHub\\[2mm]
+\ 9. your repository is created \\[2mm]
+\begin{figure}[h!]
+\centering
+\includegraphics[width=3in]{g.png}
+\caption{figure: uploading codes on GitHub}
+\end{figure}
+\textbf{RESULT:-} Codes are successfully uploaded on GitHub \\[5mm]
+\textbf{CONCLUSION:-}By performing above operation we have sucessfully create a repositry and upload files\\[2MM]
+
+
+\begin{center}
+\textbf{\LARGE PRACTICAL NO-5}\\[1cm]
+\end{center}
+\textbf{AIM:-}To Study about SQL join\\[5mm]
+\textbf{SOFTWERE USED:-} MYSQL Workbench\\[5mm]
+\textbf{THEORY:-}An SQL JOIN clause is used to combine rows from two or more tables, based on a common field between them.\\[1mm]
+The most common type of join is: SQL INNER JOIN (simple join). An SQL INNER JOIN returns all rows from multiple tables where the join condition is met.\\[2MM]
+\begin{center}
+\textbf{CODES:-}\\[2mm]
+\textbf{\normalsize Left join}\\[2mm]
+\end{center}
+\ he LEFT JOIN keyword returns all rows from the left table (table1), with the matching rows in the right table (table2).\\[1mm]
+\ The result is NULL in the right side when there is no match.\\[1mm]
+\textbf{ SELECT column\_name(s)  FROM table1 LEFT JOIN table2 ON table1.column\_name=table2.column\_name;}\\
+\begin{figure}[h!]
+\includegraphics[width=5in]{leftjoin.png}
+\centering
+\caption{figure: left join}
+\end{figure}
+\newpage
+\begin{center}
+\textbf{RIGHT JOIN:-}\\[2mm]
+\end{center}
+\ The RIGHT JOIN keyword returns all rows from the right table (table2), with the matching rows in the left table (table1).\\[1mm]
+\ The result is NULL in the left side when there is no match.\\[1mm]
+\textbf{SEELECT column\_name(s) FROM table1}\\[1mm]
+\textbf{ RIGHT JOIN table2.column\_name=table2.column\_name;}\\[1mm]
+\begin{figure}[h!]
+\includegraphics[width=6in]{rightjoin.png}
+\caption{figure:Right Join}
+\end{figure}
+\begin{center}
+\textbf{ FULL JOIN}\\[2MM]
+\end{center}
+\ The FULL OUTER JOIN keyword returns all rows from the left table (table1) and from the right table (table2).\\[1mm]
+\ The FULL OUTER JOIN keyword combines the result of both LEFT and RIGHT joins.\\[2mm]
+\textbf{CODES:- SELECT column\_name(s)
+FROM table1
+FULL OUTER JOIN table2
+ON table1.column\_name=table2.column\_name;}\\[5mm]
+\newpage
+\textbf{PROCEDURE:-}\\[2MM]
+\ 1. Open MYSQL Workbench\\[2mm]
+\ 2. Create a database\\[2mm]
+\ 3. create a  two table on that database\\[2mm]
+\ 4. write the syntax for left join , right join and full join similarly \\[2mm]
+\ 5. after that click on exicute option and check the result\\[5mm]
+\textbf{RESULTS:-} SQL joins are sucessfully performed in MYSQL\\[5MM]
+\textbf{CONCLUSION:-}By performing above  operation we have succesfully exicute the SQL joins
+
+
+\end{document}
